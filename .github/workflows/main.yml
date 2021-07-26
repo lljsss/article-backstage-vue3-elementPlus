@@ -11,4 +11,4 @@ jobs:
       with:
         username: 'YourGithubName'
         reponame: 'YourRepoName'
-        token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
+        token: ${{ secrets.ACCESS_TOKEN }} # Leave this line unchanged
