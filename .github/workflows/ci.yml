@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: Build-Vue
-      uses: xRealNeon/VuePagesAction@master
+      uses: xRealNeon/VuePagesAction@main
       with:
         username: 'lljsss'
         reponame: 'article-backstage-vue3-elementPlus'
