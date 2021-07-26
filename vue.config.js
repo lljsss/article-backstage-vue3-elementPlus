@@ -1,1 +1,3 @@
-module.exports = { outputDir: 'dist', publicPath: process.env.NODE_ENV === 'production' ? '/[article-backstage-vue3-elementPlus]/' : '/' }
+module.exports = {
+  publicPath: '/article-backstage-vue3-elementPlus/'
+}
